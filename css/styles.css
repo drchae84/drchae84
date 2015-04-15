@@ -1,0 +1,206 @@
+@import url(http://fonts.googleapis.com/css?family=Leckerli+One);
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Leckerli One', cursive;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.page_left p , .page_right p {
+    font-family: 'Leckerli One', cursive;
+    font-size: 14px;
+    line-height: 1.4em;
+    color: black;
+    background-color: rgba(255,255,255, .7);
+    padding: 10px;
+    margin: 10px;
+    position: absolute;
+    z-index: 100;
+}
+
+.page {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    width: 97vw;
+    height: 97vh;    
+}
+
+.nav_top {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    margin-left: 0 auto;
+    margin-right: -50%;
+    transform: translate(-50%, 0);
+
+}
+
+.nav_bottom {
+    color: yellow;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: 0 auto;
+    margin-right: -50%;
+    transform: translate(-50%, 0);
+    font-size: 1.5em;
+}
+
+.nav_left {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform:rotate(-90deg);
+}
+
+.nav_right {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform:rotate(-90deg);
+}
+
+
+.page_left {
+    position: relative;
+    background-color: #fff;
+    width: 530px;
+    height: 690px;
+    display: flex;
+    flex-flow:row wrap;
+    align-content: flex-start;
+    justify-content: center;
+    padding-left: 30px;
+}
+
+.page_right {
+    background-color: #fff;
+    width: 530px;
+    height: 690px;
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: center;
+    padding-right: 30px;
+}
+
+.out img {
+    transform: scaleY(1) translateX(0) translateY(0);
+    transition: all .5s ease-in-out;
+}
+
+.out:hover img {
+    transform: translateX(10px) translateY(-10px)  scale(0.6);
+}
+
+.box_hr1, .box_hr2, .box_hr3, .box_hr4, .box_hr5, .box_hr6, .box_hr7, .box_hr8, .box_sq1, .box_sq2, .box_sq3, .box_sq4, .box_sq5, .box_sq6, .box_vr {
+    border: 3px solid #333;
+    margin: 10px;
+}
+
+.box_hr1 {
+    width:320px;
+    height: 190px;
+}
+
+.box_hr1 p {
+    position: absolute;
+    width: 280px;
+}
+
+.box_hr2 {
+    width: 150px;
+    height: 190px;
+}
+
+.box_hr2 p {
+    width: 110px;
+}
+
+.box_hr3 {
+    width:495px;
+    height: 190px; 
+}
+
+.box_hr3 p , .box_hr4 p {
+    width: 450px;
+}
+
+.box_hr4 {
+    width: 495px;
+    height: 220px;
+}
+
+.box_hr5 {
+    width: 495px;
+    height: 190px;
+}
+
+.box_hr7 {
+    width: 485px;
+    height: 265px;
+}
+
+.box_hr8 {
+    width: 485px;
+    height: 256px;
+}
+
+.box_sq1 {
+    width: 300px;
+    height: 405px;
+}
+
+.box_sq1 p {
+    width: 240px;
+}
+
+.box_sq2 {
+    width: 170px;
+    height: 405px;
+}
+
+.box_sq3 {
+    width: 485px;
+    height: 300px;
+}
+
+.box_sq4 {
+    width: 485px;
+    height: 405px;
+}
+
+.box_sq4 p {
+    width: 450px;
+}
+
+.box_sq5 {
+    width: 230px;
+    height: 220px;
+}
+
+.box_sq5 p {
+    width: 190px;
+}
+
+.box_vr {
+    width: 230px;
+    height: 405px;
+}
+
+.box_vr p {
+    width: 190px;
+}
